@@ -27,8 +27,8 @@ function Navbar() {
                 <div className="hidden md:flex gap-12">
                     <ul className='flex gap-6 text-xl'>
                         <li><a href='#Home' className='hover:text-gray-500' onClick={hidemobmenu}>Home</a></li>
-                        <li><a href='#about' className='hover:text-gray-500' onClick={hidemobmenu}>About</a></li>
-                        {/* <li><a href='#skills' className='hover:text-gray-500' onClick={hidemobmenu}>Skills</a></li> */}
+                        <li><a href='#about' className='hover:text-gray-500' onClick={hidemobmenu}>About</a></li>                        
+                        <li><a href='#experience' className='hover:text-gray-500' onClick={hidemobmenu}>Experience</a></li>
                         <li><a href='#projects' className='hover:text-gray-500' onClick={hidemobmenu}>Projects</a></li>
                         <li><a href='#contact' className='hover:text-gray-500' onClick={hidemobmenu}>Contact</a></li>
                     </ul>

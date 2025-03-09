@@ -24,7 +24,7 @@ export default function About() {
                     {ABOUT_CONTENT.paragraphs.map((para, index) => {
                         return (
                             <>
-                             <motion.h1 className='text-2xl leading-tight md:text-5xl' key={index} initial='hidden' whileInView={'visible'} variants={textVariant} viewport={{once : true}}>{para}</motion.h1>
+                             <motion.h1 className='text-2xl leading-tight md:text-3xl' key={index} initial='hidden' whileInView={'visible'} variants={textVariant} viewport={{once : true}}>{para}</motion.h1>
                             </>
                         )
                     })}

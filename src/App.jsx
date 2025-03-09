@@ -5,6 +5,8 @@ import Hero from './Components/Hero'
 import Projects from './Components/Projects'
 import About from './Components/About'
 import Contact from './Components/Contact'
+import StylingProject from './Components/StylingProject'
+import Experience from './Components/Experience'
 
 export default function App() {
   return (
@@ -13,7 +15,8 @@ export default function App() {
   <Navbar/>
   <Hero/>
   <About/>
-  <Projects/>
+  <Experience/>
+  <Projects/>  
   <Contact/>
   </>
   )

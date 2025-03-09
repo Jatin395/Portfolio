@@ -2,8 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@plugin "daisyui";
+
 :root{
     background-color: black;
     color: white;
     scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+        --radius: 0.5rem;
+    }
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(36, 35, 35);
+    width: 14px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: white;
 }
